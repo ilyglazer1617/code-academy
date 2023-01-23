@@ -1,0 +1,77 @@
+.mycoursesConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table.minimalistBlack {
+    border: 3px solid #000000;
+    width: fit-content;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: grey;
+    width: 50%;
+}
+
+table.minimalistBlack td,
+table.minimalistBlack th {
+    border: 1px solid #000000;
+    padding: 5px 4px;
+}
+
+table.minimalistBlack tbody td {
+    font-size: 13px;
+}
+
+table.minimalistBlack thead {
+    background: #CFCFCF;
+    background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    border-bottom: 3px solid #000000;
+}
+
+table.minimalistBlack thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+}
+
+table.minimalistBlack tfoot td {
+    font-size: 14px;
+}
+
+
+
+.deleteCourseButton {
+    font-family: monospace;
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .3s;
+}
+
+.deleteCourseButton:hover {
+    background-color: #c40d0d;
+    box-shadow: 0 0 0 5px #d3e3245f;
+    color: #fff;
+
+}
+
+.deleteButtonRow {
+    width: 0%
+}
+
+.dateRow {
+    width: 6%;
+
+}
+
+.courseNameRow {
+    width: 30%;
+}

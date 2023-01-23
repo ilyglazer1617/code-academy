@@ -1,0 +1,14 @@
+.appConteiner {
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+
+body {
+  background-image: url(./images/signUpImg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

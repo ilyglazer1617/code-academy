@@ -1,0 +1,190 @@
+.continerNav {
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(12, 11, 11, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+h3 {
+    width: 75%;
+    font-size: 15px;
+    font-weight: 100;
+    display: flex;
+
+}
+
+#myCourses {
+    width: 35.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*!================================================ login button */
+.logIN {
+    --primary-color: #645bff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    height: 54%;
+
+    font-weight: bold;
+}
+
+.logIN .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logIN .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+}
+
+.logIN .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+
+.logIN:hover {
+    background-color: var(--hover-color);
+}
+
+.logIN:hover .arrow {
+    background: var(--secondary-color);
+}
+
+.logIN:hover .arrow:before {
+    right: 0;
+
+}
+
+/*!================================================ login button */
+
+
+.onlyUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: #dfd9d9;
+    gap: 30px;
+}
+
+/*!================================================ logOut button */
+.logOut {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    height: 54%;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+
+.logOut:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+
+.logOut:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+
+.logOut:disabled {
+    cursor: auto;
+    color: grey;
+}
+
+/*!================================================ logOut button */
+
+
+/*!====================================================== my Courses button  */
+.myCourses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 40%;
+    height: 100%;
+    background-image: linear-gradient(to top, #645bff 0%, #645bff 80%, #645bff 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0 1px #fff;
+}
+
+.myCourses:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+}
+
+.myCourses:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+
+
+
+/*!====================================================== my Courses button  */
+
+
+.personaldata {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+/*!========================================================= logo */
+.logoConteiner {
+    width: 11%;
+    /* position: fixed;
+    top: 0;
+    right: 0; */
+}
+
+.logo {
+    size: cover;
+    width: 100%;
+}
